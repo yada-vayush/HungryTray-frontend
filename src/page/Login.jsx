@@ -21,9 +21,6 @@ const Login = () => {
       const { data: res } = await axios.post(url, formData);
       localStorage.setItem("token", res.data);
 
-      console.log("====================================");
-      console.log(res.data);
-      console.log("====================================");
       window.location = "/";
     } catch (error) {
       if (

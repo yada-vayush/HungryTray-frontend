@@ -19,9 +19,7 @@ const MainNav = () => {
             "x-access-token": localStorage.getItem("token"),
           },
         });
-        console.log("====================================");
-        console.log(res);
-        console.log("====================================");
+
         setUser(res.data.email);
 
         setShow(true);
