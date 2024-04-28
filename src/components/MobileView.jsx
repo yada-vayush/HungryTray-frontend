@@ -29,7 +29,7 @@ const MobileView = () => {
             "x-access-token": localStorage.getItem("token"),
           },
         });
-        console.log(res.data);
+
         setUser("@" + res.data.email);
 
         setShow(true);

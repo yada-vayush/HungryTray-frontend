@@ -4,6 +4,8 @@ const DropdownProfile = (props) => {
   return (
     <div className="flex flex-col dropdown-profile">
       <div className="flex flex-col gap-1">
+        {" "}
+        <Link to="/manage-restaurant">Manage Restaurant</Link>
         <Link to="/user-profile">User Profile</Link>
         <div className=" bg-slate-400 h-1"></div>
         <button

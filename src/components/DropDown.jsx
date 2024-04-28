@@ -4,6 +4,12 @@ const DropDown = (props) => {
   return (
     <div className="py-5 px--5 mx-7 flex flex-col gap-2 w-full">
       <Link
+        to="/manage-restaurant"
+        className="text-center font-semibold text-teal-800 tracking-normal text-lg  "
+      >
+        Manage Restaurant
+      </Link>
+      <Link
         to="/user-profile"
         className="text-center font-semibold text-teal-800 tracking-normal text-lg  "
       >

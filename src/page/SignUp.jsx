@@ -26,10 +26,7 @@ const SignUp = () => {
       const { data: res } = await axios.post(url, formData);
       console.log(res);
       localStorage.setItem("token", res.data);
-      window.location = "/";
-      console.log("====================================");
-      console.log(res.message);
-      console.log("====================================");
+      window.location = "/login";
     } catch (error) {
       if (
         error.response &&
